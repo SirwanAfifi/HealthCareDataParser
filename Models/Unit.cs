@@ -1,7 +1,12 @@
+using System.Xml.Serialization;
+
 namespace Models
 {
     public enum Unit
     {
-        Count
+        [XmlEnum("count")]
+        Count,
+        [XmlEnum("km")]
+        Km
     }
 }
