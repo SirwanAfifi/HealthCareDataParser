@@ -433,3 +433,4 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 data.xml
 ConsoleApp/data.xml
+ConsoleApp/appsettings.json
